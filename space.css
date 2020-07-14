@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    background: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    display: flex;
+    width: 350px;
+    min-height: 350px;
+    border-radius: 50%;
+    background: radial-gradient(40% 50%, #FAECD5, #CAE4D8); 
+    opacity: 90%;
+    box-shadow: 0 0 40px rgb(255, 255, 255);
+    margin-top: 120px;
+    margin-left: 300px;
+    
+    animation: change;
+    animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes change {
+    from {background: rgb(241, 241, 212);}
+    to { background: rgb(173, 240, 231)}
+}
